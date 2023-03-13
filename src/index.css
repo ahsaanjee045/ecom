@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+  margin:0 ;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Poppins', sans-serif !important;
+  overflow-x: hidden  ;
+}
+
+a{
+  text-decoration: none !important;
+}
+.navbar-toggler{
+  border:  none !important;
+  outline: none;
+  box-shadow: none;
+}
+.navbar-toggler:focus{
+  box-shadow: none !important;
+}
+.navbar-toggler-icon {
+  background-image: url(./assets/toggle1.svg) !important;
+  color: white;
+  fill: white;
+}
+.navbar-nav{
+  align-items: end;
+}
+button.nav-link{
+  width: fit-content;
+}
+
+.nav-item.dropdown > a.nav-link:first-child{
+  text-align: right;
+  color : white
+}
+
+.navbar-nav .dropdown-menu.show{
+  text-align: right;
+}
